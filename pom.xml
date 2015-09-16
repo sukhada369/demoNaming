@@ -76,7 +76,7 @@
     </executions>
     <configuration>
         <dockerDirectory>.</dockerDirectory>
-        <imageName>sukhada:${buildNumber}</imageName>
+        <imageName>Sukhada:${buildNumber}</imageName>
     </configuration>
     </plugin>
 </plugins>
