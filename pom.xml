@@ -79,7 +79,6 @@
     <configuration>
         <dockerDirectory>.</dockerDirectory>
         <imageName>${docker.registry}sukhada:${buildNumber}</imageName>
-        <pushImage>true</pushImage>
     </configuration>
     </plugin>
 </plugins>
