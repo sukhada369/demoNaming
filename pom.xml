@@ -75,8 +75,9 @@
         </execution>
     </executions>
     <configuration>
+    	<docker.registry>www.cybage-docker-registry.com:9080/</docker.registry>
         <dockerDirectory>.</dockerDirectory>
-        <imageName>www.cybage-docker-registry.com:9080/sukhada:${buildNumber}</imageName>
+        <imageName>${docker.registry}sukhada:${buildNumber}</imageName>
     </configuration>
     </plugin>
 </plugins>
