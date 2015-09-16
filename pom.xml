@@ -72,7 +72,7 @@
         </execution>
     </executions>
     <configuration>
-        <dockerDirectory>${project.basedir}</dockerDirectory>
+        <dockerDirectory>.</dockerDirectory>
         <imageName>www.cybage-docker-registry.com:9080/Sukhada:${buildNumber}</imageName>
     </configuration>
     </plugin>
