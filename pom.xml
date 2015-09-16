@@ -72,8 +72,10 @@
         </execution>
     </executions>
     <configuration>
+        <docker.registry>www.cybage-docker-registry.com:9080/</docker.registry>
         <dockerDirectory>${project.basedir}</dockerDirectory>
-        <imageName>name:${buildNumber}</imageName>
+        <imageName>${docker.registry}Sukhada:${buildNumber}</imageName>
+        <pushImage>true</pushImage>
     </configuration>
     </plugin>
 </plugins>
