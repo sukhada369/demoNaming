@@ -84,4 +84,16 @@
     </plugin>
 </plugins>
   </build>
+  
+  <servers>
+  <server>
+    <id>www.cybage-docker-registry.com:9080/</id>
+    <username>manjuls</username>
+    <password>manjuls</password>
+    <configuration>
+      <email>manjuls@cybage.com</email>
+    </configuration>
+  </server>
+</servers>
+  
 </project>
