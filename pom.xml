@@ -1,3 +1,4 @@
+
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -22,6 +23,7 @@
               </developer>
        </developers>
   
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,7 +33,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>demoNaming</finalName>
+    <finalName>test2</finalName>
     
     <resources>
       <resource>
@@ -43,8 +45,9 @@
         </includes>
       </resource>
     </resources>
-    
+
 <plugins>
+
 	<plugin>
     <groupId>org.codehaus.mojo</groupId>
     <artifactId>buildnumber-maven-plugin</artifactId>
@@ -73,7 +76,7 @@
     </executions>
     <configuration>
         <dockerDirectory>.</dockerDirectory>
-        <imageName>Sukhada:${buildNumber}</imageName>
+        <imageName>sukhi:${buildNumber}</imageName>
     </configuration>
     </plugin>
 </plugins>
